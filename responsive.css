@@ -1,0 +1,86 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+
+nav .navbar-brand{
+    width: 11em;
+    height: auto;
+    padding: 0px;
+}
+nav .navbar-toggler{
+    padding: 0px;
+    width: auto;
+    height: auto;
+}
+.section-1 h1{
+    font-size: 50px;
+    padding-top: 5vh;
+}
+main .section-2 .card img{
+    height: 100%;
+}
+.reverse{
+    display: block;
+}
+.reverse .col-md-12{
+    padding-bottom: 10vh;
+}
+.reverse .media{
+    display: inline-block;
+    text-align: center;
+}
+.non-reverse{
+    display: none;
+}
+ }
+
+/* Medium devices (tablets, 576px and up) */
+@media (min-width: 576px) and (max-width: 991.98px) { 
+    main .section-2 .card .img-fluid{
+        padding: 3vh 2vh;
+        width: auto;
+        height: 40vh;
+    }
+    .section-2 h5{
+        font-size: 15px;
+        width: 100%;
+        height: auto;
+    }
+    .section-2 p{
+        font-size: 10px;
+    }
+    .section-2 .price-btn h1{
+        font-size: 20px;
+    }
+    .section-2 .price-btn button{
+        font-size: 15px;
+        width: auto;
+        height: 7vh;
+    }
+    .reverse{
+        display: block;
+    }
+    .reverse .col-md-12{
+        padding-bottom: 10vh;
+    }
+    .reverse .media{
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+    }
+    .non-reverse{
+        display: none;
+    }
+    .section-3 h5{
+        font-size: 20px;
+    }
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    @import url(./style.css);
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    @import url(./style.css);
+ }
